@@ -1,7 +1,6 @@
 import xlrd
 
-path = r'/Users/shahidakhan/Desktop/amazon_project/external_files/amazon_data.xlsx'
-
+path = r'/Users/shahidakhan/Desktop/amazon_POM/external_files/amazon_data.xlsx'
 def excel_data(sheet):
     workbook = xlrd.open_workbook(path)
     worksheet = workbook.sheet_by_name(sheet)
